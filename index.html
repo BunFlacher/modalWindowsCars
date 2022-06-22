@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal window</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="car">
+            <h1>Audi rs6</h1>
+            <img src="https://i.pinimg.com/736x/49/ef/c6/49efc635a5f90b9c0547c071be9d717f--audi-a-quattro-audi-rs-avant.jpg" alt="" height="450" width="500">
+            <button class="modal__open" id="modalOpen" data-modal="modal1">
+                Open modal window
+            </button>
+        </div>
+        <div class="modal" id="modal" data-modal="modal1">
+            <div class="modal__bg">
+            <div class="modal__window">
+                <h1 class="modal__title">Audi rs6</h1>
+                <img src="https://i.pinimg.com/736x/49/ef/c6/49efc635a5f90b9c0547c071be9d717f--audi-a-quattro-audi-rs-avant.jpg" alt="" height="450" width="500" class="modal__img">
+                <p class="modal__discription">
+                    Число дверей/мест: 5/5<br>
+                    Длина, мм: 4928<br>
+                    Ширина, мм: 2051<br>
+                    Высота, мм: 1460<br>
+                    Снаряжённая масса, кг: 2025<br>
+                    Полная масса, кг: 2655<br>
+                    Объём багажника, л: 565–1660<br>
+                </p>
+                <div>
+                    <img src="https://www.clipartmax.com/png/middle/10-109443_back-x-clip-art-close-button-icon-png.png" alt="" class="modal__close" height="20">
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="car">
+            <h1>Mercedec-benz c class</h1>
+            <img src="https://proprikol.ru/wp-content/uploads/2020/09/kartinki-mersedes-mercedes-9.jpg" alt="" height="450" width="560">
+            <button class="modal__open" id="modalOpen" data-modal="modal2">
+                Open modal window
+            </button>
+        </div>
+        <div class="modal" id="modal" data-modal="modal2">
+            <div class="modal__bg">
+            <div class="modal__window">
+                <h1 class="modal__title">Mercedec-benz c class</h1>
+                <img src="https://proprikol.ru/wp-content/uploads/2020/09/kartinki-mersedes-mercedes-9.jpg" alt="" height="450" width="560" class="modal__img">
+                <p class="modal__discription">Mercedes-Benz C-Класс IV (W205) – седан D-класса, задний и полный привод. Автомат и механика. Бензиновые, дизельные и гибридные двигатели мощностью от 116 до 333 лошадиных сил.</p>
+                <div>
+                    <img src="https://www.clipartmax.com/png/middle/10-109443_back-x-clip-art-close-button-icon-png.png" alt="" class="modal__close" height="20">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
